@@ -24,8 +24,14 @@ Tensorflow implementation of [Deep Convolutional Generative Adversarial Networks
 - (Optional) [moviepy](https://github.com/Zulko/moviepy) (for visualization)
 - (Optional) [Align&Cropped Images.zip](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) : Large-scale CelebFaces Dataset
 
-
 ## Usage
+
+- 1(new) download the faces.zip which already fetched from [BaiduDrive](https://pan.baidu.com/s/1c1BXNJM) 
+- 2(new) unzip the faces.zip into ./data/anime
+- 3(new) :
+
+    $ python main.py --input_height 96 --input_width 96 --output_height 48 --output_width 48 --dataset anime --crop --train --epoch 300 --input_fname_pattern "*.jpg"
+
 
 First, download dataset with:
 
